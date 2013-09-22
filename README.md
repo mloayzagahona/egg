@@ -1,2 +1,3 @@
-Angular JS demostration examples from http://egghead.io/
+Angular JS 
 ===
+It contains examples taking in account the videos from from http://egghead.io/
