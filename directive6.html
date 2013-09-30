@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS Tutorials</title>
+  	<link rel="stylesheet" href="css/foundation/foundation.css" />
+</head>
+
+<body>
+  <div ng-app="drinkApp">
+	<div ng-controller="AppCtrl">
+		Ctrl
+		<input type="text" ng-model="ctrlFlavor" />
+		
+		Directive
+		<div drink flavor="ctrlFlavor"></div>
+	</div>
+  </div>
+
+  <script src="js/angularjs/angular.js" ></script>
+  <script src="js/main6.js"></script>
+</body>
+
+</html>
