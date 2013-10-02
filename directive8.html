@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Egg Videos - Review isolate scope directive</title>
+	<link rel="stylesheet" href="css/foundation/foundation.css" />
+</head>
+<body>
+	<div ng-app="reviewApp">
+		<div ng-controller = "AppCtrl">
+			<phone 	number="234-23423" network="network" make-call="leaveVoicemail(number,message)"></phone>
+			<phone 	number="445-34545" network="network" make-call="leaveVoicemail(number,message)"></phone>
+			<phone 	number="911" network="network" make-call="leaveVoicemail(number,message)"></phone>
+		</div>
+	</div>
+
+  <script src="js/angularjs/angular.js" ></script>
+  <script src="js/main8.js"></script>
+</body>
+</html>
