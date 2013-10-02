@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS Tutorials - Zippy</title>
+	<link rel="stylesheet" href="css/foundation/foundation.css" />
+</head>
+
+<body>
+	<div ng-app="app">
+		<input type="text" ng-model="model.title">
+		<input type="text" ng-model="model.content">
+
+		<zippy title ="{{model.title}}">The content is: {{model.content}}</zippy>
+	</div>
+	<script src="js/angularjs/angular.js" ></script>
+	<script src="js/main11.js"></script>
+</body>
+
+</html>
