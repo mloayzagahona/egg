@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Template Cache Demo</title>
+	<link rel="stylesheet" href="css/foundation/foundation.css" />
+</head>
+<body>
+	<div ng-app="myApp">
+
+		<input type="text" ng-model="model.title">
+		<input type="text" ng-model="model.content">
+		<zippy title ="{{model.title}}">The content is: {{model.content}}</zippy>
+	</div>
+	<script src="js/angularjs/angular.js" ></script>
+	<script src="js/main14.js"></script>
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+	':35729/livereload.js?snipver=2"></' + 'script>')</script>
+
+</body>
+</html>
